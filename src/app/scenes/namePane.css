@@ -1,0 +1,33 @@
+
+.text{
+	-fx-font-size: 20;
+	-fx-font-family: Helvetica;
+	-fx-opacity: 1; 
+	-fx-text-alignment: right ;
+		-fx-font-weight: bold;
+}
+TextField{
+	-fx-max-width: 300px;
+	-fx-min-width: 300px;
+	-fx-border-color: rgb(0,0,0);
+	-fx-border-width: 2px;
+	-fx-min-height: 50px;
+	-fx-max-height: 50px;
+	-fx-font-size: 20px;
+}
+.button{
+	-fx-alignment: center;
+	-fx-min-width: 296;
+	-fx-position-shape: true;
+	-fx-background-color: transparent ;
+	-fx-border-color: rgb(0,0,0);
+	-fx-background-insets: 0,20,10,20;
+	-fx-border-width: 2px;
+	-fx-border-style: solid  outside line-cap square ;
+	-fx-text-alignment: center;
+	-fx-font-size: 30;
+	-fx-font-weight: bold;
+	-fx-translate-x: 250;
+	-fx-translate-y: 10;
+	
+ }

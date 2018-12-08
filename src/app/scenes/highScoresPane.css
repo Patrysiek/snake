@@ -1,0 +1,40 @@
+GameOverPane{
+-fx-border-color: rgb(255,255,255);
+-fx-text-alignment: center;
+-fx-background-insets: 0, 20, 10, 20;
+-fx-background-position: center;
+-fx-border-color: rgb(255,255,255);
+-fx-border-width: 100;
+-fx-fill-width: true;
+-fx-fill-height: true;
+
+} 
+Text{
+	-fx-font-size: 20;
+	-fx-font-family: Helvetica;
+	-fx-opacity: 0.7; 
+	-fx-text-alignment: center ;
+}
+
+.button{
+	-fx-alignment: center;
+	-fx-position-shape: true;
+	-fx-background-color: transparent ;
+	-fx-border-color: rgb(0,0,0);
+	-fx-background-insets: 0,20,10,20;
+	-fx-border-width: 2px;
+	-fx-min-width: 296px;
+	-fx-min-width: 296px;	
+	-fx-max-height: 100px;
+	-fx-border-style: solid outside line-cap square ;
+	-fx-text-alignment: center;
+	-fx-font-size: 20;
+	-fx-font-weight: bolder;
+ }
+Rectangle{
+	-fx-fill: transparent ;
+	-fx-stroke: black ;
+	-fx-stroke-width: 2px;
+	
+	
+}
